@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0d0d1a">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🎬 CineMatch AI"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#ff6b9d"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How are you feeling tonight?"
+            android:textSize="16sp"
+            android:textColor="#888888"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Current Mood" android:textColor="#aaaaaa" android:textSize="13sp"
+            android:layout_marginBottom="4dp"/>
+        <Spinner android:id="@+id/spinnerMood"
+            android:layout_width="match_parent" android:layout_height="48dp"
+            android:background="@drawable/spinner_bg"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Energy Level" android:textColor="#aaaaaa" android:textSize="13sp"
+            android:layout_marginBottom="4dp"/>
+        <Spinner android:id="@+id/spinnerEnergy"
+            android:layout_width="match_parent" android:layout_height="48dp"
+            android:background="@drawable/spinner_bg"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Watching With" android:textColor="#aaaaaa" android:textSize="13sp"
+            android:layout_marginBottom="4dp"/>
+        <Spinner android:id="@+id/spinnerCompany"
+            android:layout_width="match_parent" android:layout_height="48dp"
+            android:background="@drawable/spinner_bg"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Movie Length" android:textColor="#aaaaaa" android:textSize="13sp"
+            android:layout_marginBottom="4dp"/>
+        <Spinner android:id="@+id/spinnerLength"
+            android:layout_width="match_parent" android:layout_height="48dp"
+            android:background="@drawable/spinner_bg"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Preferred Industry" android:textColor="#aaaaaa" android:textSize="13sp"
+            android:layout_marginBottom="4dp"/>
+        <Spinner android:id="@+id/spinnerIndustry"
+            android:layout_width="match_parent" android:layout_height="48dp"
+            android:background="@drawable/spinner_bg"
+            android:layout_marginBottom="32dp"/>
+
+        <Button
+            android:id="@+id/btnFind"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="✨ Find My Perfect Movie"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:background="@drawable/btn_gradient"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnFavorites"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="⭐ My Favorites"
+            android:textColor="#ff6b9d"
+            android:background="@android:color/transparent"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+</ScrollView>
